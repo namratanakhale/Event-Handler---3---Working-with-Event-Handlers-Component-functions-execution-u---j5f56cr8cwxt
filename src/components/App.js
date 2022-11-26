@@ -6,13 +6,13 @@ const App = () => {
   const[inputNum, setInputNum] = React.useState("")
   const handleInputText = (event) =>{
    // use console.log
-  //  setInput(event.target.value)
+   setInput(event.target.value)
    console.log(event.target.value)
   }
 
   const handleInputNum = (event) =>{
     // use console.log
-    // setInputNum(event.target.value)
+    setInputNum(event.target.value)
     console.log(event.target.value)
    }
 
